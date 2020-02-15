@@ -12,11 +12,11 @@
 		android:id="@+id/calendar"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
 		android:src="@drawable/ic_eventlist"
-		app:layout_constraintTop_toTopOf="parent"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
-		android:layout_marginTop="30dp" />
+		app:layout_constraintTop_toTopOf="parent" />
 
 	<TextView
 		android:id="@+id/welcome_text"
@@ -24,7 +24,7 @@
 		android:layout_height="wrap_content"
 		android:textSize="24sp"
 		android:textColor="#313131"
-		android:text="Welcome To DTS VSGA"
+		android:text="Welcome To Aplikasiku"
 		app:layout_constraintTop_toBottomOf="@id/calendar"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
@@ -43,8 +43,8 @@
 
 	<ImageView
 		android:id="@+id/background_satu"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
+		android:layout_width="416dp"
+		android:layout_height="224dp"
 		android:scaleType="fitXY"
 		android:src="@drawable/bg_red"
 		app:layout_constraintBottom_toBottomOf="parent"
